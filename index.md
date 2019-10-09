@@ -5,7 +5,7 @@ title: "Latest Posts"
 ---
 
 <div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
-{% endfor %}
+	<h1>Shukla Capital</h1>
+	<h2>Advising, investing and building teams that are uniquely positioned in industries ripe for disruption.</h2>
+	<a href="mailto:hello@shuklacapital.com">Contact: hello@shuklacapital.com</a>
 </div><!-- /.tiles -->
