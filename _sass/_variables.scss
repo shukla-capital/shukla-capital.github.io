@@ -31,8 +31,8 @@ $caption-color                : mix($white, $text-color, 25%);
 
 $base-color                  	: #343434;
 $comp-color                  	: #00aa68;
-$border-color                	: #ddd;
-$link-color                  	: #222;
+$border-color                	: rgba($white,.5);
+$link-color                  	: $white;
 
 $primary-color               	: $black;
 $success-color               	: #2ecc71;
