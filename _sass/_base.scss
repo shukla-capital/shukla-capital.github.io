@@ -254,8 +254,10 @@ hr {
 	border: 0;
 	&:before {
 		content: '';
-		position: absolute;
-		margin:0px auto;
+		display: block;
+		 @include media($medium) {
+		   margin:0px auto;
+		  }
 		width: 2 * $column;
 		height: 1px;
 		background: $border-color;
