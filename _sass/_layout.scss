@@ -372,14 +372,8 @@ h1.logo {
 	
 	height: 100%;
 	padding: 32px 0px;
-	h2 {
-		padding-top: 16px;
-	}
 	@include media($medium) {
 		text-align: center;
 		padding: 128px 0px;
-		h2 {
-		padding-top: 32px;
-		}
 	}	
 }
