@@ -5,7 +5,7 @@ description: "Advising, investing and building teams that are uniquely positione
 logo: # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: en
-url:
+url: https://shuklacapital.com
 feed:
   path: atom.xml
 
