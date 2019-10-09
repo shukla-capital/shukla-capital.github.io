@@ -352,18 +352,25 @@
 
 
 /** Added CSS **/
+
 h1.logo {
 	background: url(../images/logo-dark-bg.png) center no-repeat;
 	background-size: contain;
 	width: 100%;
-	height: 320px;
+	height: 120px;
 	display: block;
 	margin: 32px auto;
 	text-indent: -3000px;
+	@include media($medium) {
+		height: 320px;
+	}
 }
 
 .home {
 	text-align: center;
 	height: 100%;
 	padding: 128px 0px;
+	@include media($medium) {
+		padding: 32px 0px;
+	}	
 }
