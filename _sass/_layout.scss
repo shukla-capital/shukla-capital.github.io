@@ -354,7 +354,7 @@
 /** Added CSS **/
 
 h1.logo {
-	background: url(../images/logo-dark-bg.png) center no-repeat;
+	background: url(../images/logo-dark-bg.png) left no-repeat;
 	background-size: contain;
 	width: 100%;
 	height: 120px;
@@ -362,6 +362,7 @@ h1.logo {
 	margin: 16px auto;
 	text-indent: -3000px;
 	@include media($medium) {
+		background-position: center;
 		height: 320px;
 		margin: 32px auto;
 	}
